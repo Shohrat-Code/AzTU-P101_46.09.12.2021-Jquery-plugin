@@ -1,0 +1,20 @@
+#blog {
+    .wrapper {
+        .title {
+            h1 {
+                padding: 10px;
+                background-color: black;
+                color: white;
+                cursor: pointer;
+            }
+        }
+        .content {
+            // display: none;
+            padding: 15px;
+            box-sizing: border-box;
+            box-shadow: 0px 0px 40px -20px black;
+            border: 1px solid;
+            position: relative;
+        }
+    }
+}
